@@ -2,7 +2,7 @@ import random
 import openai
 # BOT_URL = 'https://discord.com/api/oauth2/authorize?client_id=1098637017014882495&permissions=1099511629824&scope=bot'
 
-openai.api_key = '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'
+openai.api_key = ''
 model_engine = "text-davinci-003"
 
 def get_response(message: str) -> str:
